@@ -1,6 +1,5 @@
 const h1Style = "text-3xl font-bold text-black";
-const update = "text-sm font-thin text-black mb-4";
-const secUpdate = "text-sm font-medium mb-6";
+const secUpdate = "text-sm font-thin mt-2 mb-6";
 const h2Style = "text-2xl font-semibold text-neutral-800 mt-10 mb-4";
 const pStyle = "text-base text-neutral-700 mb-3 leading-relaxed";
 const ulStyle = "list-disc list-outside pl-5 mb-4 text-neutral-700 leading-relaxed";
@@ -8,8 +7,7 @@ const ulStyle = "list-disc list-outside pl-5 mb-4 text-neutral-700 leading-relax
 const PrivacyContent = () => (
   <section id="privacidade">
     <h1 className={h1Style}>Privacidade e Segurança</h1>
-    <p className={update}>Última atualização: 1 de Novembro de 2025, às 14:00 horas</p>
-    <p className={secUpdate}>Seus dados estão seguros conosco. Eles são usados apenas para o processamento, envio e comunicação sobre o seu pedido. <strong>Jamais compartilharemos suas informações</strong>.</p>
+    <p className={secUpdate}>Seus dados estão seguros. Eles são usados apenas para o processamento, envio e comunicação sobre o seu pedido. <strong>Jamais compartilharemos suas informações</strong>.</p>
     
     <h2 className={h2Style} id="priv-1">1. Quais dados coletamos?</h2>
     <p className={pStyle}>Coletamos os dados que você fornece durante a compra: nome completo, instagram e número de telefone. <strong>Não armazenamos dados do seu cartão de crédito</strong>.</p>

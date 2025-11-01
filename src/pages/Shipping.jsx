@@ -1,5 +1,4 @@
-const h1Style = "text-3xl font-bold text-black";
-const update = "text-sm font-thin text-black mb-6";
+const h1Style = "text-3xl font-bold text-black mb-6";
 const h2Style = "text-2xl font-semibold text-neutral-800 mt-10 mb-4";
 const pStyle = "text-base text-neutral-700 mb-4 leading-relaxed";
 // const ulStyle = "list-disc list-outside pl-5 mb-4 text-neutral-700 leading-relaxed";
@@ -7,7 +6,6 @@ const pStyle = "text-base text-neutral-700 mb-4 leading-relaxed";
 const ShippingContent = () => (
   <section id="envios">
     <h1 className={h1Style}>Prazos de Produção e Envio</h1>
-    <p className={update}>Última atualização: 1 de Novembro de 2025, às 14:00 horas</p>
     
     <h2 className={h2Style} id="envios-1">1. Prazo de Produção (Personalizados)</h2>
     <p className={pStyle}>O prazo de produção é de <strong>7 a 10 dias úteis</strong>. Este prazo é contado após o término da <strong>Janela de Arrependimento de 24h</strong> que se inicia após a confirmação do pagamento do sinal.</p>
