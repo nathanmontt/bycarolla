@@ -1,4 +1,5 @@
-const h1Style = "text-3xl font-bold text-black mb-6";
+const h1Style = "text-3xl font-bold text-black";
+const published = "text-sm font-thin text-black mb-6";
 const h2Style = "text-2xl font-semibold text-neutral-800 mt-10 mb-4";
 const pStyle = "text-base text-neutral-700 mb-4 leading-relaxed";
 const ulStyle = "list-disc list-outside pl-5 mb-4 text-neutral-700 leading-relaxed";
@@ -6,6 +7,7 @@ const ulStyle = "list-disc list-outside pl-5 mb-4 text-neutral-700 leading-relax
 const PrivacyContent = () => (
   <section id="privacidade">
     <h1 className={h1Style}>Privacidade e Segurança</h1>
+    <p className={published}>Última atualização: 1 de Novembro de 2025, às 14:00 horas</p>
     [cite_start]<p className={pStyle}>Feito com amor e com respeito! Seus dados (nome, endereço, e-mail) estão seguros conosco. [cite: 38] [cite_start]Eles são usados apenas para o processamento, envio e comunicação sobre o seu pedido. [cite: 39] [cite_start]Jamais compartilharemos suas informações. [cite: 39]</p>
     
     <h2 className={h2Style} id="priv-1">1. Quais dados coletamos?</h2>
