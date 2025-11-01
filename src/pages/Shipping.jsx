@@ -13,11 +13,11 @@ const ShippingContent = () => (
     <h2 className={h2Style} id="envios-2">2. Prazo de Separação (Pronta Entrega)</h2>
     <p className={pStyle}>Para itens a pronta entrega, o prazo de separação e entrega é de <strong>24h após a confirmação do pagamento</strong>. Salientamos que: <strong>produtos de pronta entrega não estão sujeitos a personalização!</strong></p>
     
-    <h2 className={h2Style} id="envios-3">3. Prazo Final de Entrega</h2>
-    <p className={pStyle}>O prazo total informado ao cliente é sempre a soma do (Prazo de Produção/Separação) + (Prazo da Transportadora). Exemplo: 7 dias úteis de produção + 5 dias úteis do Correios = 12 dias úteis de prazo total. </p>
+    <h2 className={h2Style} id="envios-3">3. Prazo Final de Retirada</h2>
+    <p className={pStyle}>O prazo total <strong>é sempre acordado com o cliente no momento do contato</strong>. Caso haja imprevistos, <strong>o cliente será comunicado com antecedência (até 24 horas)</strong>;</p>
     
     <h2 className={h2Style} id="envios-4">4. Endereço Incorreto</h2>
-    <p className={pStyle}>O preenchimento correto do endereço de entrega é de total responsabilidade do cliente.  119] Caso o pedido retorne para nós por "Endereço Incorreto" ou "Destinatário Ausente", um novo frete será cobrado para o reenvio.  120]</p>
+    <p className={pStyle}>O preenchimento correto do endereço de entrega é de total responsabilidade do cliente. Caso o pedido retorne para nós por "Endereço Incorreto" ou "Destinatário Ausente", um novo frete será cobrado para o reenvio.</p>
     
     <h2 className={h2Style} id="envios-5">5. Atrasos da Transportadora</h2>
     <p className={pStyle}>Nós nos responsabilizamos por abrir chamados (PI) e monitorar a entrega junto à transportadora, mas não temos controle sobre eventuais atrasos.  122, 123] Manteremos você informado sobre o status do chamado. </p>
