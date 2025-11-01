@@ -1,5 +1,5 @@
 const h1Style = "text-3xl font-bold text-black";
-const published = "text-sm font-thin text-black mb-6";
+const update = "text-sm font-thin text-black mb-6";
 const h2Style = "text-2xl font-semibold text-neutral-800 mt-10 mb-4";
 const pStyle = "text-base text-neutral-700 mb-4 leading-relaxed";
 const ulStyle = "list-disc list-outside pl-5 mb-4 text-neutral-700 leading-relaxed";
@@ -7,7 +7,7 @@ const ulStyle = "list-disc list-outside pl-5 mb-4 text-neutral-700 leading-relax
 const TermsContent = () => (
   <section id="termos">
     <h1 className={h1Style}>Política Geral</h1>
-    <p className={published}>Última atualização: 1 de Novembro de 2025, às 14:00 horas</p>
+    <p className={update}>Última atualização: 1 de Novembro de 2025, às 14:00 horas</p>
     <p className={pStyle}>Que alegria ter você aqui! A <strong>byCarolla</strong> nasceu do propósito de criar ferramentas de organização que sejam <strong>a sua cara</strong> e, de fato, <strong>funcionais</strong>. Nosso processo é feito com muito carinho, de forma artesanal e personalizada. Para que sua experiência seja a mais leve e produtiva possível, queremos ser <strong>100% transparentes sobre como funcionamos</strong>.</p>
     
     <h2 className={h2Style} id="termos-1">1. Processo de Personalização e "Aceite"</h2>
