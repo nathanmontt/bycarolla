@@ -8,7 +8,7 @@ function LeftSidebar({ activeTab, setActiveTab, tabs, tabIds }) {
               <button
                 onClick={() => setActiveTab(tabId)}
                 className={`
-                  ${activeTab === tabId ? 'font-semibold text-black' : 'text-neutral-600 hover:text-black'}
+                  ${activeTab === tabId ? 'font-semibold text-[#d84052]' : 'text-[#bd646f] hover:text-[#DA5162]'}
                   transition-colors text-left cursor-pointer
                 `}
               >

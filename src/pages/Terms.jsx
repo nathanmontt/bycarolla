@@ -1,15 +1,15 @@
-const h1Style = "text-3xl font-bold text-black";
-const update = "text-sm font-thin text-black mb-6";
-const h2Style = "text-2xl font-semibold text-neutral-800 mt-10 mb-4";
-const pStyle = "text-base text-neutral-700 mb-4 leading-relaxed";
-const pStyleSec = "text-base text-neutral-700 mb-4 leading-relaxed mt-10";
-const ulStyle = "list-disc list-outside pl-5 mb-4 text-neutral-700 leading-relaxed";
+const h1Style = "text-3xl font-bold text-[#DA5162]";
+const update = "text-sm font-thin mb-6 text-[#DA5162]";
+const h2Style = "text-2xl font-semibold mt-10 mb-4 text-[#DA5162]";
+const pStyle = "text-base mb-4 leading-relaxed text-[#DA5162]";
+const pStyleSec = "text-base mb-4 leading-relaxed mt-10 text-[#DA5162]";
+const ulStyle = "list-disc list-outside pl-5 mb-4 leading-relaxed text-[#DA5162]";
 
 const TermsContent = () => (
   <section id="termos">
     <h1 className={h1Style}>Política Geral</h1>
     <p className={update}>Última atualização: 1 de Novembro de 2025, às 14:00 horas</p>
-    <p className={pStyle}>Que alegria ter você aqui! A <strong>byCarolla</strong> nasceu do propósito de criar ferramentas de organização que sejam <strong>a sua cara</strong> e, de fato, <strong>funcionais</strong>. Nosso processo é feito com muito carinho, de forma artesanal e personalizada. Para que sua experiência seja a mais leve e produtiva possível, queremos ser <strong>100% transparentes sobre como funcionamos</strong>.</p>
+    <p className={pStyle}>Que alegria ter você aqui! A <span className="text-[#DA5162]"><strong>byCarolla</strong></span> nasceu do propósito de criar ferramentas de organização que sejam <strong>a sua cara</strong> e, de fato, <strong>funcionais</strong>. Nosso processo é feito com muito carinho, de forma artesanal e personalizada. Para que sua experiência seja a mais leve e produtiva possível, queremos ser <strong>100% transparentes sobre como funcionamos</strong>.</p>
     
     <h2 className={h2Style} id="termos-1">1. Processo de Personalização e "Aceite"</h2>
     <p className={pStyle}>Como criamos produtos exclusivos para você, nosso processo funciona em algumas etapas:</p>
@@ -52,13 +52,13 @@ const TermsContent = () => (
 // Menu "Nesta Página" (TOC) para os Termos
 const TermsTOC = ({ activeSubheadingId }) => (
   <ul className="space-y-2 pl-4 mt-2 text-sm">
-    <li><a href="#termos-1" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-1' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>1. Personalização</a></li>
-    <li><a href="#termos-2" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-2' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>2. Cancelamento e Reembolso</a></li>
-    <li><a href="#termos-2-1" className={`cursor-pointer transition-colors pl-2 ${activeSubheadingId === 'termos-2-1' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>2.1. Janela de 24h</a></li>
-    <li><a href="#termos-2-2" className={`cursor-pointer transition-colors pl-2 ${activeSubheadingId === 'termos-2-2' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>2.2. Pós-Produção</a></li>
-    <li><a href="#termos-2-3" className={`cursor-pointer transition-colors pl-2 ${activeSubheadingId === 'termos-2-3' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>2.3. Prazo Reembolso</a></li>
-    <li><a href="#termos-3" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-3' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>3. Avarias ou Danos</a></li>
-    <li><a href="#termos-4" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-4' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>4. Pagamento</a></li>
+    <li><a href="#termos-1" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-1' ? 'font-bold text-[#DA5162]' : 'text-[#d86e7b] hover:text-[#DA5162]'}`}>1. Personalização</a></li>
+    <li><a href="#termos-2" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-2' ? 'font-bold text-[#DA5162]' : 'text-[#d86e7b] hover:text-[#DA5162]'}`}>2. Cancelamento e Reembolso</a></li>
+    <li><a href="#termos-2-1" className={`cursor-pointer transition-colors pl-2 ${activeSubheadingId === 'termos-2-1' ? 'font-bold text-[#DA5162]' : 'text-[#d86e7b] hover:text-[#DA5162]'}`}>2.1. Janela de 24h</a></li>
+    <li><a href="#termos-2-2" className={`cursor-pointer transition-colors pl-2 ${activeSubheadingId === 'termos-2-2' ? 'font-bold text-[#DA5162]' : 'text-[#d86e7b] hover:text-[#DA5162]'}`}>2.2. Pós-Produção</a></li>
+    <li><a href="#termos-2-3" className={`cursor-pointer transition-colors pl-2 ${activeSubheadingId === 'termos-2-3' ? 'font-bold text-[#DA5162]' : 'text-[#d86e7b] hover:text-[#DA5162]'}`}>2.3. Prazo Reembolso</a></li>
+    <li><a href="#termos-3" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-3' ? 'font-bold text-[#DA5162]' : 'text-[#d86e7b] hover:text-[#DA5162]'}`}>3. Avarias ou Danos</a></li>
+    <li><a href="#termos-4" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-4' ? 'font-bold text-[#DA5162]' : 'text-[#d86e7b] hover:text-[#DA5162]'}`}>4. Pagamento</a></li>
   </ul>
 );
 

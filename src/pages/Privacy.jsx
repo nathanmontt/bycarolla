@@ -1,8 +1,8 @@
-const h1Style = "text-3xl font-bold text-black";
-const secUpdate = "text-sm font-thin mt-2 mb-6";
-const h2Style = "text-2xl font-semibold text-neutral-800 mt-10 mb-4";
-const pStyle = "text-base text-neutral-700 mb-3 leading-relaxed";
-const ulStyle = "list-disc list-outside pl-5 mb-4 text-neutral-700 leading-relaxed";
+const h1Style = "text-3xl font-bold text-[#DA5162]";
+const secUpdate = "text-sm font-thin mt-2 mb-6 text-[#DA5162]";
+const h2Style = "text-2xl font-semibold text-[#DA5162] mt-10 mb-4";
+const pStyle = "text-base text-[#DA5162] mb-3 leading-relaxed";
+const ulStyle = "list-disc list-outside pl-5 mb-4 text-[#DA5162] leading-relaxed";
 
 const PrivacyContent = () => (
   <section id="privacidade">
@@ -27,9 +27,9 @@ const PrivacyContent = () => (
 
 const PrivacyTOC = ({ activeSubheadingId }) => (
   <ul className="space-y-2 pl-4 mt-2 text-sm">
-    <li><a href="#priv-1" className={`cursor-pointer transition-colors ${activeSubheadingId === 'priv-1' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>1. Coleta de Dados</a></li>
-    <li><a href="#priv-2" className={`cursor-pointer transition-colors ${activeSubheadingId === 'priv-2' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>2. Uso dos Dados</a></li>
-    <li><a href="#priv-3" className={`cursor-pointer transition-colors ${activeSubheadingId === 'priv-3' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>3. Compartilhamento</a></li>
+    <li><a href="#priv-1" className={`cursor-pointer transition-colors ${activeSubheadingId === 'priv-1' ? 'font-bold text-[#DA5162]' : 'text-[#d86e7b] hover:text-[#DA5162]'}`}>1. Coleta de Dados</a></li>
+    <li><a href="#priv-2" className={`cursor-pointer transition-colors ${activeSubheadingId === 'priv-2' ? 'font-bold text-[#DA5162]' : 'text-[#d86e7b] hover:text-[#DA5162]'}`}>2. Uso dos Dados</a></li>
+    <li><a href="#priv-3" className={`cursor-pointer transition-colors ${activeSubheadingId === 'priv-3' ? 'font-bold text-[#DA5162]' : 'text-[#d86e7b] hover:text-[#DA5162]'}`}>3. Compartilhamento</a></li>
   </ul>
 );
 
