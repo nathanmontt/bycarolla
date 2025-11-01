@@ -2,6 +2,7 @@ const h1Style = "text-3xl font-bold text-black";
 const update = "text-sm font-thin text-black mb-6";
 const h2Style = "text-2xl font-semibold text-neutral-800 mt-10 mb-4";
 const pStyle = "text-base text-neutral-700 mb-4 leading-relaxed";
+const pStyleSec = "text-base text-neutral-700 mb-4 leading-relaxed mt-10";
 const ulStyle = "list-disc list-outside pl-5 mb-4 text-neutral-700 leading-relaxed";
 
 const TermsContent = () => (
@@ -44,7 +45,7 @@ const TermsContent = () => (
       <li><strong>Cartão de Crédito (via Link de Pagamento seguro);</strong></li>
       <li><strong>Dinheiro</strong></li>
     </ul>
-    <p className={pStyle}>Caso tenha alguma dúvida, basta entrar em contato através do whatsApp: (31) 9 7157-6238</p>
+    <p className={pStyleSec} >Caso tenha alguma dúvida, basta entrar em contato através do WhatsApp: <strong>(31) 9 7157-6238</strong></p>
   </section>
 );
 
