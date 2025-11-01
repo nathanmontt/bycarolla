@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.sidebar-sticky {
+  position: sticky;
+  top: 4rem; /* 64px, ou a altura do seu header (h-16) */
+  height: calc(100vh - 4rem); /* Altura total da tela menos o header */
+  align-self: start;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2[id] {
+  scroll-margin-top: 6rem;
+}
