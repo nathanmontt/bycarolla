@@ -36,11 +36,11 @@ const TermsContent = () => (
     </ul>
 
     <h2 className={h2Style} id="termos-4">4. Formas de Pagamento</h2>
-    <p className={pStyle}>Aceitamos diferentes formas de pagamento. Escolha a sua preferida!</p>
+    <p className={pStyle}>Aceitamos diferentes formas de pagamento:</p>
     <ul className={ulStyle}>
-      <li>PIX (A forma mais rápida de confirmar seu pedido).</li>
-      <li>Cartão de Crédito (via Link de Pagamento seguro).</li>
-      <li>Dinheiro (Apenas para entregas locais).</li>
+      <li><strong>PIX;</strong></li>
+      <li><strong>Cartão de Crédito (via Link de Pagamento seguro);</strong></li>
+      <li><strong>Dinheiro</strong></li>
     </ul>
     <p className={pStyle}>Caso tenha alguma dúvida, basta entrar em contato através do whatsApp: (31) 9 7157-6238</p>
   </section>
