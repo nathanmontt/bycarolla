@@ -10,7 +10,7 @@ import RightSidebar from './RightSidebar';
 import MainContent from './MainContent';
 
 const tabs = {
-  'termos': { label: 'Política Geral', content: <TermsContent />, toc: <TermsTOC /> },
+  'termos': { label: 'Termo de Uso e Compras', content: <TermsContent />, toc: <TermsTOC /> },
   'envios': { label: 'Prazos e Envios', content: <ShippingContent />, toc: <ShippingTOC /> },
   'privacidade': { label: 'Privacidade e Segurança', content: <PrivacyContent />, toc: <PrivacyTOC /> },
 };
