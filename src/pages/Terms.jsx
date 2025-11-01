@@ -17,17 +17,16 @@ const TermsContent = () => (
     </ul>
 
     <h2 className={h2Style} id="termos-2">2. Cancelamento, Arrependimento e Reembolso</h2>
-    <p className={pStyle}>Esta é a parte mais importante da nossa política, pois envolve produtos feitos sob medida.</p>
     
     <h3 className={h2Style + " text-xl"} id="termos-2-1">2.1. Janela de Arrependimento (24h)</h3>
-    <p className={pStyle}>A partir da confirmação do seu pagamento (seja o sinal de 50% ou o valor total de 100%), você terá um prazo de 24 horas para refletir. Caso precise cancelar dentro desse período, o valor pago será 100% reembolsado, sem problemas.</p>
+    <p className={pStyle}>A partir da confirmação do seu pagamento (seja o sinal de 50% ou o valor total de 100%), você terá um prazo de <strong>24 horas para refletir se vai adquirir realmente o produto</strong>. Caso precise cancelar <strong>dentro desse período</strong>, o valor pago será <strong>100% reembolsado</strong>.</p>
     
     <h3 className={h2Style + " text-xl"} id="termos-2-2">2.2. Início da Produção (Ponto de Não Retorno)</h3>
-    <p className={pStyle}>Se você não se manifestar nessas 24 horas, entenderemos que a produção está autorizada e seu pedido entrará oficialmente em nossa fila. A partir deste momento (após as 24h), seu produto entra na fase de corte e montagem. Caso o cancelamento seja solicitado, o valor referente ao sinal de 50% não será reembolsável.</p>
-    <p className={pStyle}>Se você pagou 100% (Cartão/PIX): A regra do sinal ainda se aplica. 50% do valor (referente ao sinal) será retido e os outros 50% serão reembolsados. 22]</p>
+    <p className={pStyle}>Se você <strong>não manifestar nenhum tipo de contestação sobre não querer mais o produto/serviço dentro dessas 24 horas</strong>, entenderemos que a produção está <strong>autorizada</strong> e seu pedido <strong>entrará oficialmente em nossa fila de feitura</strong>. A partir deste momento (após as 24h), caso o cancelamento seja solicitado, o valor referente ao sinal de 50% <strong>não será reembolsável</strong>.</p>
+    <p className={pStyle}>Se você pagou 100% (Crédito ou PIX), <strong>a regra do sinal ainda se aplica</strong>. 50% do valor (referente ao sinal) será retido e os outros 50% serão reembolsados.</p>
 
     <h3 className={h2Style + " text-xl"} id="termos-2-3">2.3. Prazo para Reembolso</h3>
-    <p className={pStyle}>Reembolsos aprovados (via PIX ou transferência) serão feitos em até 2 dias úteis.</p>
+    <p className={pStyle}>Reembolsos aprovados (via PIX) serão feitos <strong>em até 2 dias úteis</strong>.</p>
 
     <h2 className={h2Style} id="termos-3">3. Avarias ou Danos (Produto com defeito)</h2>
     <p className={pStyle}>Se o seu produto chegar com qualquer avaria ou danificado, nos avise imediatamente com fotos/vídeos. Conforme nossa política, você poderá escolher:</p>
