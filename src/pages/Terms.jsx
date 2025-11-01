@@ -21,24 +21,21 @@ const TermsContent = () => (
     <h3 className={h2Style + " text-xl"} id="termos-2-1">2.1. Janela de Arrependimento (24h)</h3>
     <p className={pStyle}>A partir da confirmação do seu pagamento (seja o sinal de 50% ou o valor total de 100%), você terá um prazo de <strong>24 horas para refletir se vai adquirir realmente o produto</strong>. Caso precise cancelar <strong>dentro desse período</strong>, o valor pago será <strong>100% reembolsado</strong>.</p>
     
-    <h3 className={h2Style + " text-xl"} id="termos-2-2">2.2. Início da Produção (Ponto de Não Retorno)</h3>
-    <p className={pStyle}>Se você <strong>não manifestar nenhum tipo de contestação sobre não querer mais o produto/serviço dentro dessas 24 horas</strong>, entenderemos que a produção está <strong>autorizada</strong> e seu pedido <strong>entrará oficialmente em nossa fila de feitura</strong>. A partir deste momento (após as 24h), caso o cancelamento seja solicitado, o valor referente ao sinal de 50% <strong>não será reembolsável</strong>.</p>
-    <p className={pStyle}>Se você pagou 100% (Crédito ou PIX), <strong>a regra do sinal ainda se aplica</strong>. 50% do valor (referente ao sinal) será retido e os outros 50% serão reembolsados.</p>
+    <h3 className={h2Style + " text-xl"} id="termos-2-2">2.2. Início da Produção</h3>
+    <p className={pStyle}>Se você <strong>não se manifestar dentro dessas 24 horas</strong>, entenderemos que a produção está <strong>autorizada</strong> e seu pedido <strong>entrará oficialmente em nossa fila</strong>. A partir deste momento (após às 24h), caso o cancelamento seja solicitado, o valor referente ao sinal de 50% <strong>não será reembolsável</strong>.</p>
+    <p className={pStyle}>Se você pagou 100% (Crédito ou PIX), <strong>a regra do sinal ainda se aplica</strong>: 50% do valor será retido e os outros 50% serão reembolsados.</p>
 
     <h3 className={h2Style + " text-xl"} id="termos-2-3">2.3. Prazo para Reembolso</h3>
     <p className={pStyle}>Reembolsos aprovados (via PIX) serão feitos <strong>em até 2 dias úteis</strong>.</p>
 
     <h2 className={h2Style} id="termos-3">3. Avarias ou Danos (Produto com defeito)</h2>
-    <p className={pStyle}>Se o seu produto chegar com qualquer avaria ou danificado, nos avise imediatamente com fotos/vídeos. Conforme nossa política, você poderá escolher:</p>
+    <p className={pStyle}>Se o seu produto chegar com qualquer <strong>avaria ou danificado</strong>, nos avise <strong>imediatamente</strong>, com fotos/vídeos. Conforme nossa política, você poderá escolher:</p>
     <ul className={ulStyle}>
-      <li>Receber um novo produto: Enviaremos um novo item (sujeito ao nosso prazo de produção).</li>
-      <li>Reembolso de 50% do valor total: Já que o pagamento do sinal não é reembolsável.</li>
+      <li><strong>Receber um novo produto:</strong> enviaremos um novo item (sujeito ao nosso prazo de produção);</li>
+      <li><strong>Reembolso de 50% do valor total:</strong> já que o pagamento do sinal não é reembolsável.</li>
     </ul>
 
-    <h2 className={h2Style} id="termos-4">4. Extravio (Pedido perdido)</h2>
-    <p className={pStyle}>Caso a transportadora confirme oficialmente o extravio do seu pedido, aplicaremos a mesma regra de "Avarias ou Danos".</p>
-
-    <h2 className={h2Style} id="termos-5">5. Formas de Pagamento</h2>
+    <h2 className={h2Style} id="termos-4">4. Formas de Pagamento</h2>
     <p className={pStyle}>Aceitamos diferentes formas de pagamento. Escolha a sua preferida!</p>
     <ul className={ulStyle}>
       <li>PIX (A forma mais rápida de confirmar seu pedido).</li>
@@ -58,8 +55,7 @@ const TermsTOC = ({ activeSubheadingId }) => (
     <li><a href="#termos-2-2" className={`cursor-pointer transition-colors pl-2 ${activeSubheadingId === 'termos-2-2' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>2.2. Pós-Produção</a></li>
     <li><a href="#termos-2-3" className={`cursor-pointer transition-colors pl-2 ${activeSubheadingId === 'termos-2-3' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>2.3. Prazo Reembolso</a></li>
     <li><a href="#termos-3" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-3' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>3. Avarias ou Danos</a></li>
-    <li><a href="#termos-4" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-4' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>4. Extravio</a></li>
-    <li><a href="#termos-5" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-5' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>5. Pagamento</a></li>
+    <li><a href="#termos-4" className={`cursor-pointer transition-colors ${activeSubheadingId === 'termos-4' ? 'font-bold text-black' : 'text-neutral-600 hover:text-black'}`}>4. Pagamento</a></li>
   </ul>
 );
 
