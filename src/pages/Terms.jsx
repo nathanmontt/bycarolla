@@ -7,8 +7,8 @@ const ulStyle = "list-disc list-outside pl-5 mb-4 leading-relaxed text-[#DA5162]
 
 const TermsContent = () => (
   <section id="termos">
-    <h1 className={h1Style}>Termo de Uso e Compras</h1>
-    <p className={update}>Última atualização: 1 de Novembro de 2025, às 14:00 horas</p>
+    <h1 className={h1Style}>Termo de Compras</h1>
+    <p className={update}>Última atualização: 13 de Novembro de 2025, às 10:09 horas da manhã</p>
     <p className={pStyle}>Que alegria ter você aqui! A <span className="text-[#DA5162]"><strong>byCarolla</strong></span> nasceu do propósito de criar ferramentas de organização que sejam <strong>a sua cara</strong> e, de fato, <strong>funcionais</strong>. Nosso processo é feito com muito carinho, de forma artesanal e personalizada. Para que sua experiência seja a mais leve e produtiva possível, queremos ser <strong>100% transparentes sobre como funcionamos</strong>.</p>
     
     <h2 className={h2Style} id="termos-1">1. Processo de Personalização e "Aceite"</h2>
@@ -45,6 +45,7 @@ const TermsContent = () => (
       <li><strong>Cartão de Crédito (via Link de Pagamento seguro);</strong></li>
       <li><strong>Dinheiro</strong></li>
     </ul>
+    <p className={pStyle}>Os pagamentos via crédito poderão sofrer acréscimo devido às taxas.</p>
     <p className={pStyleSec} >Caso tenha alguma dúvida, basta entrar em contato através do WhatsApp: <strong>(31) 9 7157-6238</strong></p>
   </section>
 );
